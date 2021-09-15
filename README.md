@@ -9,3 +9,19 @@ All the homeworks are distributed as Jupyter notebooks. Follow these instruction
 3. Install the [IJulia](https://github.com/JuliaLang/IJulia.jl) using the Julia package manager. In the REPL, enter the package manager using `]`, then enter `add IJulia` to add it to your system path.
 4. In the REPL (hit backspace to exit the package manager), enter `using IJulia`
 5. Launch the notebook using `notebook()` or `jupyterlab()`
+
+## Running tests
+1. Navigate to the root directory of your repo 
+2. Start julia 
+3. Run `include("tests/runtests.jl")` (doesn't matter which environment)
+
+
+## Submitting your homework
+Make sure your repo lives under the Class Organization. This will be done automatically when you use the GitHub Classrooms link we send provide. To submit, simply create a release. Follow [these instructions](https://github.com/Optimal-Control-16-745/JuliaIntro/blob/main/docs/Submission%20Instructions.md) for more info on creating the release.
+
+## Adding the Upstream Repo
+We may release changes to the homework periodically if errors or bugs are found. Follow these instructions for linking your repo to the original template and pulling changes. It's always a good idea to branch your code before pulling from the upstream repo in case something goes wrong or the merge is particularly nasty. Do the right away after creating your repo. 
+```
+git remote add upstream https://github.com/Optimal-Control-16-745/hw3
+git pull upstream main --allow-unrelated-histories
+```
