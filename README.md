@@ -11,9 +11,9 @@ All the homeworks are distributed as Jupyter notebooks. Follow these instruction
 5. Launch the notebook using `notebook()` or `jupyterlab()`
 
 ## Running tests
-1. navigate to the root directory of your repo 
-2. start julia 
-3. run `include("tests/runtests.jl")`
+1. Navigate to the root directory of your repo 
+2. Start julia 
+3. Run `include("tests/runtests.jl")` (doesn't matter which environment)
 
 
 ## Submitting your homework
